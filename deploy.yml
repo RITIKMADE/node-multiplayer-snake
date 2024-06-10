@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: myapp-container
-        image:80:79:75 # Corrected image name here
+        image:  
         ports:
         - containerPort: 3000
