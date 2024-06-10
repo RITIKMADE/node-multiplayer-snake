@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: myapp-container
-        made143/snake:71: made143/snake:71
+        made143/snake:
         ports:
         - containerPort: 3000
