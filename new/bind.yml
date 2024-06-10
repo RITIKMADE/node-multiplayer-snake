@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: jenkins-role-binding
+subjects:
+- kind: ServiceAccount
+  name: jenkins
+  namespace: default  # Change this if Jenkins is running in a different namespace
+roleRef:
+  kind: ClusterRole
+  name: jenkins-role
+  apiGroup: rbac.authorization.k8s.io
+
