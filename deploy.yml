@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: myapp-container
-        image: image
+        image: made143/snake:latest
         ports:
         - containerPort: 3000
